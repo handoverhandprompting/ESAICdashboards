@@ -238,7 +238,7 @@ def second_page_en():
     if 'egfr_list' not in st.session_state:
         st.session_state['efgr_list'] = []
 
-    st.subheader('Ready for continue Entresto?')
+    st.subheader('Ready for Entresto continuation?')
 
     ShowHR(st.session_state['risk_value2_col1'], st.session_state['risk_value2_col2']).show()
     enter2_col1, enter2_col2 = st.columns(2)
