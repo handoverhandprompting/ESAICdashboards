@@ -31,7 +31,7 @@ font-size: 16px;
             if st.session_state['_language'] == 'chinese':
                 baseline = st.button("了解現在", key='baseline')
             elif st.session_state['_language'] == 'english':
-                baseline = st.button("Current status", key='baseline')
+                baseline = st.button("Explanation", key='baseline')
             if baseline:
                 st.session_state['page'] = 'baseline_model'
     with col2:
