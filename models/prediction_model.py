@@ -111,7 +111,7 @@ def prediction_view():
             dialysis = dialysis_display[1]
 
     # st.write('---')
-    with st.expander(':pill: 心血保護用藥'):
+    with st.expander(':pill: 心血管保護用藥'):
         col1, col2 = st.columns([5, 2])
         with col1:
             acei_display = st.selectbox('血管收縮素轉化酶抑制劑/血管收縮素第二型受體阻斷劑',
@@ -135,7 +135,7 @@ def prediction_view():
 
         col1, col2 = st.columns(2)
         with col1:
-            en_h_display = st.selectbox('打算什麼時候用安健心',
+            en_h_display = st.selectbox('打算什麼時候用健安心',
                                         ['門診啟用(OPD)', '住院啟用(IPD)', 'None'], key='en_h_display_pred', index=0)
         with col2:
             ua_u_o_display = st.selectbox('降尿酸藥', ['無', '欣律(allopurinol)', '優力康(benzbromarone)', '福避痛(febuxostat)', 'probenecid', '法舒克(rasburicase)', '速復利(sulfinpyrazone)', '非上述藥物'], index=0)
