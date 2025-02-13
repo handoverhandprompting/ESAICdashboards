@@ -39,7 +39,7 @@ def second_page():
                 st.warning('請輸入數字')
 
 
-    with st.expander(':pill: 開始吃健安心的時候的用用狀況'):
+    with st.expander(':pill: 開始吃健安心的時候的用藥狀況'):
         nsaid_display = st.selectbox('非類固醇抗發炎藥(消炎藥)',  [['否', False], ['是', True]], format_func=lambda x: x[0], help='NSAID: Nonsteroidal anti-inflammatory drugs')
         nsaid = nsaid_display[1]
         antiplatelet_display = st.selectbox('抗血小板藥', [['否', False], ['是', True]], format_func=lambda x: x[0], help='Antiplatelet drugs: Drugs used for coronary artery disease')
