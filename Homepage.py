@@ -24,7 +24,7 @@ def run():
                 elif st.session_state['_language'] == 'english':
                     st.session_state['_language'] = 'chinese'
 
-    st.header('National Taiwan University Hospital Pharmacist-Led Heart Failure Clinic')
+    st.header('header')
     st.write('content')
 
 if __name__ == '__main__':
